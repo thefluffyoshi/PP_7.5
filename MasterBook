@@ -1,0 +1,22 @@
+public class MasterBook
+{
+ protected int pages;
+ protected String author;
+ protected String genre;
+
+ public MasterBook(String author, String genre, int pages)
+ {
+     this.pages = pages;
+     this.author = author;
+     this.genre = genre;
+ }//end constructor
+
+    public String toString()
+    {
+        String output = "";
+        output += "Author: " + author;
+        output += "\nGenre: " + genre;
+        output += "Pages: " + pages;
+        return output;
+    }//end toString
+}//end master abstract
