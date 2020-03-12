@@ -1,0 +1,18 @@
+public class BookDriver
+{
+    public static void main(String[] args)
+    {
+        MasterBook WarriorCats = new WarriorCats("Eric Hunter", "Fantasy Fiction", 313);
+        MasterBook SeriesOfUnfortunateEvents = new SeriesOfUnfortunateEvents("Lemony Snicket", "Gothic fiction", 337);
+
+        int[] arrayInts = new int[5];
+        MasterBook[] book1 = new MasterBook[5];
+        book1[0] = WarriorCats;
+        book1[1] = SeriesOfUnfortunateEvents;
+
+        for (int i = 0; i < book1.length; i++)
+        {
+            System.out.println(book1[i]);
+        }//end for
+    }//end main
+}//end Driver
