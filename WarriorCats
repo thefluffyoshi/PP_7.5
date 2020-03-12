@@ -1,0 +1,13 @@
+public class WarriorCats extends  MasterBook
+{
+    public WarriorCats(String author, String genre, int pages)
+    {
+        super(author, genre, pages);
+    }//end constructor
+
+    public String toString()
+    {
+        String output = super.toString();
+        return output;
+    }//end toString
+}//end WarriorCats
